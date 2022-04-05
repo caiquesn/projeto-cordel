@@ -1,0 +1,93 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header > h1 {
+    font-family: var(--font2);
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    padding-bottom: 10px;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+} 
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.5vw;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: black;
+    color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.404);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.397);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#girassol{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right top;
+}
+
+section#livro {
+    background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+}
+
+footer {
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
