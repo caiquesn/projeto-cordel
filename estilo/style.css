@@ -85,9 +85,9 @@ section#livro {
 }
 
 footer {
-    font-size: 2em;
+    font-size: 1em;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
